@@ -13,7 +13,9 @@ Links and Appendix
 ========================================================
 
 - Read for free:
+
 https://www.packtpub.com/product/django-4-for-the-impatient/9781803245836
 
 - Download the example code files:
+
 https:// github.com/PacktPublishing/Django-4-for-the-Impatient

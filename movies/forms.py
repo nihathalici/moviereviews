@@ -1,8 +1,6 @@
-from typing import Any, Dict, Mapping, Optional, Type, Union
-from django.core.files.base import File
-from django.db.models.base import Model
+# movies/forms.py
+
 from django.forms import ModelForm, Textarea
-from django.forms.utils import ErrorList
 from .models import Review
 
 class ReviewForm(ModelForm):
@@ -15,4 +13,5 @@ class ReviewForm(ModelForm):
         model = Review
         fields = ["text", "watchAgain"]
         labels = {"watchAgain": ("Watch Again")}
-        widgets = {"text": Textarea(attrs={"rows": 4}), }
+        widgets = {"text": Textarea(attrs={"rows": 4})}
+    
